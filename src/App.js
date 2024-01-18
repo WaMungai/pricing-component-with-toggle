@@ -23,10 +23,11 @@ function App() {
             checked={annually}
             onChange={() => setAnnually(!annually)}
           />
-          <label form="checkbox" className="label">
+          <label for="checkbox" className="label">
             <div className="ball"></div>
-            <label className="name">Monthly</label>
+            
           </label>
+          <label className="name">Monthly</label>
         </div>
         <div className="flex flex-wrap flex-col justify-center gap-8 text-center max-w-6xl mx-auto lg:gap-0 lg:flex-row lg:flex-nowrap lg:w-full">
           <article className="p-8 rounded bg-white shadow lg:w-full">
