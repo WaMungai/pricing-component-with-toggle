@@ -90,7 +90,7 @@ function App() {
         </div>
       </section>
       <div className="absolute left-0 bottom-0 -z-10">
-        <img src={bgBottom} className="w-full max-w-full"/>
+        <img src={bgBottom} className="w-full max-w-full" alt=""/>
       </div>
     </>
   );
