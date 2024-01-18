@@ -13,7 +13,7 @@ body {
   background-color: hsl(240, 78%, 98%);
 }
 .linear-gradient {
-  background-color: linear-gradient(
+  background: linear-gradient(
     90deg,
     hsl(236, 72%, 79%),
     hsl(237, 63%, 64%)
