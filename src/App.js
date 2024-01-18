@@ -87,10 +87,11 @@ function App() {
             </ul>
             <button className="linear-gradient btn text-white py-3 w-full rounded-lg shadow uppercase cursor-pointer border-2 hover:border-2">Learn More</button>
           </article>
-          
         </div>
-        
       </section>
+      <div className="absolute left-0 bottom-0 -z-10">
+        <img src={bgBottom} className="w-full max-w-full"/>
+      </div>
     </>
   );
 }
